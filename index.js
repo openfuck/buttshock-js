@@ -1,6 +1,7 @@
 'use strict';
 const SerialPort = require('serialport');
 const ET312 = require('./lib/ET312');
+const async = require('marcosc-async');
 const opts = {
   baudrate: 19200,
   // If only we had a viable parser to use
@@ -10,20 +11,22 @@ const opts = {
 const port = new SerialPort('/dev/ttyS0', opts);
 
 port.on('open', function() {
-  var e = new ET312(port);
-  e.handshake().then(function() {
-    console.log('handshake succeeded!');
-    e.key_exchange().then(function() {
+  async.task(function*() {
+    const e = new ET312(port);
+    try {
+      yield e.handshake();
+      console.log('handshake succeeded!');
+    } catch (err) {
+      console.log('handshake failed:', err);
+      return port.close();
+    }
+    try {
+      yield e.key_exchange();
       console.log('Box key: ' + e._key);
-      port.close();
-    }, function(err) {
-      console.log('key exchange failed!');
-      console.log(err);
-      port.close();
-    });
-  }, function(err) {
-    console.log('handshake failed!');
-    console.log(err);
-    port.close();
+    } catch (err) {
+      console.log('key exchange failed!', err);
+    } finally {
+      return port.close();
+    }
   });
 });

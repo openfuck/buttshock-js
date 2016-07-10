@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/metafetish/buttshock-js#readme",
   "dependencies": {
+    "marcosc-async": "^3.0.0",
     "serialport": "4.x"
   },
   "devDependencies": {
