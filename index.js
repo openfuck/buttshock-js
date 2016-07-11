@@ -21,7 +21,7 @@ port.on('open', function() {
       return port.close();
     }
     try {
-      yield e.key_exchange();
+      yield e.keyExchange();
       console.log('Box key: ' + e._key);
     } catch (err) {
       console.log('key exchange failed!', err);
