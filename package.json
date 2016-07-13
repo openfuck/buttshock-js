@@ -4,6 +4,7 @@
   "description": "Estim hardware (Erostek ET-312/ET-232, Estim Systems 2B) control for node.js",
   "main": "index.js",
   "scripts": {
+    "generate-docs": "node_modules/.bin/jsdoc --configure doc/conf.json --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "minami": "^1.1.1",
     "mocha": "^2.5.3"
   }
 }

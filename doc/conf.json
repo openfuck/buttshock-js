@@ -14,7 +14,7 @@
     "monospaceLinks": false
   },
   "opts": {
-    "template": "templates/default",
+    "template": "node_modules/minami",
     "encoding": "utf8",
     "destination": "./doc/out/",
     "recurse": true
