@@ -57,14 +57,20 @@ whatever medium you like. For instance, you could create a network
 class that talks to a daemon that communicates with a serial port, if
 needed.
 
-License
--------
+## License
 
 tl;dr: BSD 3-Clause license
 
-Copyright (c) 2016, Buttshock Project
+Copyright (c) 2016, The Buttshock Project
 
 See LICENSE file for full text.
 
+## Versions
 
+### 0.1.1 (2016-07-12)
 
+- Basic ET312 functionality. Connect, exchange keys, read/write memory
+
+### 0.1.0 (2016-07-08)
+
+- No code. Namesquatting package on npm. I am a horrible person.
