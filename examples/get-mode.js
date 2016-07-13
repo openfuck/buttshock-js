@@ -1,6 +1,6 @@
 'use strict';
 const SerialPort = require('serialport');
-const ET312 = require('./lib/ET312');
+const buttshock = require('buttshock');
 const async = require('marcosc-async');
 const opts = {
   baudrate: 19200,
@@ -12,7 +12,7 @@ const port = new SerialPort('/dev/ttyUSB0', opts);
 
 port.on('open', function() {
   async.task(function*() {
-    const e = new ET312(port);
+    const e = new buttshock.et312(port);
     try {
       yield e.handshake();
       console.log('handshake succeeded!');
