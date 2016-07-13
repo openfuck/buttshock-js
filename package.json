@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/metafetish/buttshock-js.git"
   },
+  "main": "./lib/buttshock",
   "keywords": [
     "electrostim",
     "estim",
