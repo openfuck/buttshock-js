@@ -8,7 +8,7 @@ const opts = {
   parser: SerialPort.parsers.raw
 };
 
-const port = new SerialPort('/dev/ttyS0', opts);
+const port = new SerialPort('/dev/ttyUSB0', opts);
 
 port.on('open', function() {
   async.task(function*() {
@@ -23,6 +23,9 @@ port.on('open', function() {
     try {
       yield e.keyExchange();
       console.log('Box key: ' + e._key);
+      let mode = yield e.readMode();
+      console.log('Box mode: ' + mode);
+      yield e.resetKey();
     } catch (err) {
       console.log('key exchange failed!', err);
     } finally {
