@@ -6,7 +6,7 @@ Javascript implementation of serial based control of the following devices:
 - [Erostek ET-232 Electrostimulation Device](http://shop.erostek.com/products/ET232-Power-Unit.html)
 - [Estim Systems 2B Electrostimulation Device](http://store.e-stim.co.uk/index.php?main_page=product_info&products_id=17)
 
-API Documentation is available at http://www.buttshock.com/doc/buttshock-js
+API Documentation is available at [http://www.buttshock.com/doc/buttshock-js](http://www.buttshock.com/doc/buttshock-js)
 
 ## Buttshock Project Goals
 

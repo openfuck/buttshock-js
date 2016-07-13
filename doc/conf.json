@@ -17,6 +17,7 @@
     "template": "node_modules/minami",
     "encoding": "utf8",
     "destination": "./doc/out/",
-    "recurse": true
+    "recurse": true,
+    "readme": "README.md"
   }
 }
