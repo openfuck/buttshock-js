@@ -1,6 +1,6 @@
 # buttshock-js
 
-[![Build Status](https://img.shields.io/travis/metafetish/buttshock-js.svg)](https://travis-ci.org/metafetish/buttshock-js)[![npm](https://img.shields.io/npm/v/buttshock.svg)(https://npmjs.com/package/buttshock)
+[![Build Status](https://img.shields.io/travis/metafetish/buttshock-js.svg)](https://travis-ci.org/metafetish/buttshock-js)[![npm](https://img.shields.io/npm/v/buttshock.svg)](https://npmjs.com/package/buttshock)
 
 Javascript implementation of serial based control of the following devices:
 
