@@ -1,6 +1,6 @@
 # buttshock-js
 
-[![Build Status](https://img.shields.io/travis/metafetish/buttshock-js.svg)](https://travis-ci.org/metafetish/buttshock-js)[![npm](https://img.shields.io/npm/v/buttshock.svg)](https://npmjs.com/package/buttshock)
+[![Build Status](https://img.shields.io/travis/metafetish/buttshock-js.svg)](https://travis-ci.org/metafetish/buttshock-js)[![npm](https://img.shields.io/npm/v/buttshock.svg)](https://npmjs.com/package/buttshock)[![docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://www.buttshock.com/doc/buttshock-js)
 
 Javascript implementation of serial based control of the following devices:
 
@@ -8,7 +8,7 @@ Javascript implementation of serial based control of the following devices:
 - [Erostek ET-232 Electrostimulation Device](http://shop.erostek.com/products/ET232-Power-Unit.html)
 - [Estim Systems 2B Electrostimulation Device](http://store.e-stim.co.uk/index.php?main_page=product_info&products_id=17)
 
-API Documentation is available at [http://www.buttshock.com/doc/buttshock-js](http://www.buttshock.com/doc/buttshock-js)
+API Documentation is available at [https://www.buttshock.com/doc/buttshock-js](http://www.buttshock.com/doc/buttshock-js)
 
 ## Buttshock Project Goals
 
