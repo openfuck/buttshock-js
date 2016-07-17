@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "generate-docs": "node_modules/.bin/jsdoc --configure doc/conf.json --verbose",
-    "test": "mocha tests/"
+    "test": "mocha tests/",
+    "test-travis": "istanbul cover _mocha -- tests/ && codeclimate-test-reporter < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/metafetish/buttshock-js.git"
   },
-  "main": "./lib/buttshock",
   "keywords": [
     "electrostim",
     "estim",
@@ -30,6 +30,8 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "codeclimate-test-reporter": "^0.3.3",
+    "istanbul": "^0.4.4",
     "minami": "^1.1.1",
     "mocha": "^2.5.3"
   }

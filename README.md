@@ -1,6 +1,6 @@
 # buttshock-js
 
-[![Build Status](https://img.shields.io/travis/metafetish/buttshock-js.svg)](https://travis-ci.org/metafetish/buttshock-js) [![npm](https://img.shields.io/npm/v/buttshock.svg)](https://npmjs.com/package/buttshock) [![docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://www.buttshock.com/doc/buttshock-js)
+[![Build Status](https://img.shields.io/travis/metafetish/buttshock-js.svg)](https://travis-ci.org/metafetish/buttshock-js) [![npm](https://img.shields.io/npm/v/buttshock.svg)](https://npmjs.com/package/buttshock) [![codeclimate coverage](https://codeclimate.com/github/metafetish/buttshock-js/badges/coverage.svg)](https://codeclimate.com/github/metafetish/buttshock-js) [![codeclimate health](https://codeclimate.com/github/metafetish/buttshock-js/badges/gpa.svg)](https://codeclimate.com/github/metafetish/buttshock-js) [![docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://www.buttshock.com/doc/buttshock-js) 
 
 Javascript implementation of serial based control of the following devices:
 
